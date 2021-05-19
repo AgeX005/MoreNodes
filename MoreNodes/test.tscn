@@ -21,7 +21,9 @@ one_shot = true
 visibility_rect = Rect2( -6.14183, -7.32786, 14.2286, 12.4768 )
 process_material = ExtResource( 2 )
 script = ExtResource( 3 )
+play_on_start = false
 destroy_on_finished = false
+parts_size = 1.0
 smoke_size = 1.0
 explosion_force = 800.0
 
