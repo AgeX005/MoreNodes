@@ -56,7 +56,6 @@ func _ready():
 	smoke.one_shot=true
 	
 	timer.start(lifetime)
-	timer.connect("timeout",self,"_on_timer_timeout")
 
 func play():
 	restart()
