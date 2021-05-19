@@ -21,7 +21,7 @@ var smoke_material = load("res://more_nodes/fx_2d/explosion_parts_2d/smoke_parts
 var timer : Timer
 var smoke : Particles2D
 
-func _enter_tree():
+func _ready():
 	self_modulate = Color(1.5,1.5,1)
 	timer = Timer.new()
 	timer.connect("timeout", self, "_on_timer_timeout")
